@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from markhov import MarkhovChain
+from markhov_chain import MarkhovChain
 import string
 import re
-import pdb
 
 some_file = './some_text.txt'
 text = open(some_file, 'r', encoding='utf-8').read()
